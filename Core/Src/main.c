@@ -104,17 +104,17 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
-	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_8, GPIO_PIN_SET);
-	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_9, GPIO_PIN_SET);
-	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_10, GPIO_PIN_SET);
-
-
-
-	  if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_13) == 1) {
-		  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_12);
-
-	  }
+//
+//	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_8, GPIO_PIN_SET);
+//	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_9, GPIO_PIN_SET);
+//	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_10, GPIO_PIN_SET);
+//
+//
+//
+//	  if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_13) == 1) {
+//		  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_12);
+//
+//	  }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
